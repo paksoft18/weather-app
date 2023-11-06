@@ -1,0 +1,16 @@
+.App {
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  max-width: 1200px;
+  margin: 0 auto;
+
+  color: #0f172a;
+
+  @media screen and (min-width: 321px) {
+    padding: 2em;
+  }
+}
